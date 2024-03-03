@@ -1,3 +1,16 @@
+.nav-item a {
+  color: #c4c4c4;
+}
+
+.nav-item:hover {
+  border-radius: 5px;
+  background-color: #eeeeee;
+}
+
+.nav-item a:hover {
+  color: #393E46;
+}
+
 .jumbotron {
   padding-top: 9rem;
   background-color: #eeeeee;

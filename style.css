@@ -1,28 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bg-gelap {
+  background-color: #222831;
+}
+.bg-abu {
+  background-color: #393e46;
+}
+.bg-biru {
+  background-color: #00adb5;
+}
+.bg-putih {
+  background-color: #eeeeee;
+}
+.teks-gelap {
+  color: #222831;
+}
+.teks-abu {
+  color: #393e46;
+}
+.teks-biru {
+  color: #00adb5;
+}
+.teks-putih {
+  color: #eeeeee;
+}
+
+.bg-blur {
+  background: transparent;
+  backdrop-filter: blur(5px);
+}
+
 .nav-item a {
-  color: #c4c4c4;
+  color: #393e46;
+}
+.nav-item a:hover,
+.active {
+  font-weight: bolder;
+  color: #222831;
+  border-bottom: 2px solid #222831;
 }
 
-.nav-item a:hover {
-  color: #393E46;
-}
-
-.jumbotron {
-  padding-top: 9rem;
-  background-color: #eeeeee;
-}
-
-#project {
-  background-color: #eeeeee;
-}
-
-#project .container {
-  padding-bottom: 6rem;
+section {
+  padding-top: 6rem;
 }
 
 #about .container {
   padding-bottom: 8rem;
 }
 
-section {
-  padding-top: 6rem;
+.card-service {
+  padding-top: 0.5rem;
+  border: 1px solid #222831;
+  border-radius: 10px;
+  color: #222831;
+}
+
+svg {
+  min-width: 50px;
+}
+
+.note {
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/* Style untuk tombol "to the top" */
+#toTopBtn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  display: none;
+  color: #eeeeee;
+  background-color: #222831;
+  border: none;
+  border-radius: 50%;
+}
+
+#toTopBtn:hover,
+#toTopBtn:active,
+#toTopBtn:focus {
+  font-weight: bold;
+  outline: none; /* Remove focus border */
+  background-color: transparent;
+  color: #222831;
+  border: 1px solid #222831;
 }

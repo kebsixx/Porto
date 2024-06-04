@@ -1,0 +1,32 @@
+[
+  {
+    "image": "img/projects/metode.png",
+    "title": "Metode SDLC",
+    "description": "SDLC merupakan proses yang digunakan untuk membuat dan mengubah sistem perangkat lunak, dengan berbagai model dan metodologi yang mendukung pengembangan produk.",
+    "link": "article/metode.html"
+  },
+  {
+    "image": "img/projects/waterfall.png",
+    "title": "SDLC Waterfall",
+    "description": "SDLC (Software Development Life Cycle) Waterfall adalah model pengembangan perangkat lunak yang mengadopsi pendekatan linier dan sekuensial.",
+    "link": "article/waterfall.html"
+  },
+  {
+    "image": "img/projects/qinshihuang.jpeg",
+    "title": "Qin Shi Huang",
+    "description": "Qin Shi Huang yang memiliki nama asli Ying Zheng, merupakan Kaisar pertama China yang lahir di Hanan pada 259 sebelum masehi.",
+    "link": "article/qinshihuang.html"
+  },
+  {
+    "image": "img/projects/5.jpg",
+    "title": "Apa itu Komputer ?",
+    "description": "komputer adalah sebuah alat elektronik yang komplek, karena memiliki beberapa komponen yang saling berkaitan satu sama lain di sebuah komputer.",
+    "link": "article/komputer.html"
+  },
+  {
+    "image": "img/projects/list.png",
+    "title": "Tipe Data List pada Python",
+    "description": " List adalah sebuah tipe data yang digunakan untuk menyimpan kumpulan data dalam satu variabel. setiap elemen dalam list memiliki indeks yang memungkinkan untuk bisa mengakses ke elemen tersebut secara terpisah.",
+    "link": "article/list.html"
+  }
+]
